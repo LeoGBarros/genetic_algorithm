@@ -20,7 +20,7 @@ def desenhar_campo(screen):
     pygame.draw.rect(screen, (255, 255, 255), (700, 250, 50, 100), 3)
     pygame.draw.circle(screen, (255, 255, 255), (730, 300), 10)
 
-def desenhar_jogadores(screen, time, formacao="4-4-2"):
+def desenhar_jogadores(screen, time, formacao):
     posicoes_map = {
         "4-4-2": {
             'GK': (100, 300),
@@ -62,10 +62,10 @@ def desenhar_jogadores(screen, time, formacao="4-4-2"):
             pygame.draw.circle(screen, (255, 255, 255), (x, y), 28, 2)
 
             nome = jogador['Nome'].split()[0][:8]
-            texto_nome = font_nome.render(nome, True, (255, 255, 255))
-            screen.blit(texto_nome, (x - 35, y - 45))
+            texto_nome = font_nome.render(nome, True, (0, 0, 0))
+            screen.blit(texto_nome, (x - 35, y - 50))
 
-            texto_rating = font_rating.render(str(int(rating)), True, (255, 255, 0))
+            texto_rating = font_rating.render(str(int(rating)), True, (0, 0, 100))
             screen.blit(texto_rating, (x - 12, y - 12))
 
 def desenhar_botoes(screen, botoes):
