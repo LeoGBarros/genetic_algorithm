@@ -5,7 +5,7 @@ Instituição: FIAP
 Ano: 2025
 
 **Integrantes do Grupo:**  
-Erick Bognar, Alexsander Maia Simas, Leonardo Guedes, Ruâni Felipe, Talita Hipolito
+Erick Bognar, Alexsander Maia Simas, Leonardo Guedes, Ruâni Filipe, Talita Hipolito
 
 ---
 
