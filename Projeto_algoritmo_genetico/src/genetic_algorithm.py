@@ -32,19 +32,19 @@ def agrupar_por_posicao(jogadores):
         for pos in posicoes:
             if pos == 'GK':
                 grupos['GK'].append(jogador)
-            elif pos in ['CB', 'LCB', 'RCB', 'CDM', 'RDM', 'LDM']:
+            elif pos in ['CB', 'LCB', 'RCB']:
                 grupos['CB'].append(jogador)
             elif pos in ['RB', 'RWB']:
                 grupos['RB'].append(jogador)
             elif pos in ['LB', 'LWB']:
                 grupos['LB'].append(jogador)
-            elif pos in ['CM', 'RCM', 'LCM']:
+            elif pos in ['CM', 'CDM' ]:
                 grupos['CM'].append(jogador)
             elif pos in ['CAM', 'RAM', 'LAM']:
                 grupos['CAM'].append(jogador)
-            elif pos in ['RM']:
+            elif pos in ['RM', 'RCM', 'RDM']:
                 grupos['RM'].append(jogador)
-            elif pos in ['LM']:
+            elif pos in ['LM', 'LCM', 'LDM']:
                 grupos['LM'].append(jogador)
             elif pos in ['ST', 'CF']:
                 grupos['ST'].append(jogador)

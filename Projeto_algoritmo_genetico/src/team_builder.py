@@ -8,10 +8,10 @@ def validar_time(time):
         'GK': 'Goalkeeper',
         # Defensores
         'CB': 'DEF', 'LCB': 'DEF', 'RCB': 'DEF', 'LB': 'DEF', 'RB': 'DEF',
-        'LWB': 'DEF', 'RWB': 'DEF', 'CDM': 'DEF', 'RDM': 'DEF', 'LDM': 'DEF',
+        'LWB': 'DEF', 'RWB': 'DEF',
         # Meias
         'CM': 'MEI', 'RCM': 'MEI', 'LCM': 'MEI', 'CAM': 'MEI', 'RAM': 'MEI', 'LAM': 'MEI',
-        'LM': 'MEI', 'RM': 'MEI', 'CDM': 'MEI',
+        'LM': 'MEI', 'RM': 'MEI', 'CDM': 'MEI', 'RDM': 'MEI', 'LDM': 'MEI',
         # Atacantes
         'ST': 'ATA', 'CF': 'ATA', 'LS': 'ATA', 'RS': 'ATA',
         'LW': 'ATA', 'RW': 'ATA', 'LF': 'ATA', 'RF': 'ATA'
@@ -46,9 +46,9 @@ def calcular_fitness(time, formation_target=None):
     position_mapping = {
         'GK': 'Goalkeeper',
         'CB': 'DEF', 'LCB': 'DEF', 'RCB': 'DEF', 'LB': 'DEF', 'RB': 'DEF',
-        'LWB': 'DEF', 'RWB': 'DEF', 'CDM': 'DEF', 'RDM': 'DEF', 'LDM': 'DEF',
+        'LWB': 'DEF', 'RWB': 'DEF',
         'CM': 'MEI', 'RCM': 'MEI', 'LCM': 'MEI', 'CAM': 'MEI', 'RAM': 'MEI', 'LAM': 'MEI',
-        'LM': 'MEI', 'RM': 'MEI',
+        'LM': 'MEI', 'RM': 'MEI', 'CDM': 'MEI', 'RDM': 'MEI', 'LDM': 'MEI',
         'ST': 'ATA', 'CF': 'ATA', 'LS': 'ATA', 'RS': 'ATA',
         'LW': 'ATA', 'RW': 'ATA', 'LF': 'ATA', 'RF': 'ATA'
     }
